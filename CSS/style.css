@@ -247,7 +247,7 @@ nav {
 
 .home{
 	width:100%;
-	background-image: url("../images/open-flowers.jpg");
+	background-image: url("../Images/open-flowers.jpg");
 	background-attachment: fixed;
 	position: absolute;
 	height: 575px;
@@ -260,7 +260,7 @@ nav {
 
 .why {
 	width:100%;
-	background-image: url("../images/open-flowers-flowers.jpg");
+	background-image: url("../Images/open-flowers-flowers.jpg");
 	background-attachment: fixed;
 	height: 200px;
 	background-size: cover;
@@ -313,7 +313,7 @@ a {
 .logo{
 	width: 250px;
 	height: 80px;
-	background-image:url("../images/lore_logo.png");
+	background-image:url("../Images/lore_logo.png");
 	background-size: contain;
 	float: left;
 	margin-left: 20px;
@@ -333,7 +333,7 @@ img{
 .logo-sm{
 	width: 150px;
 	height: 40px;
-	background-image:url("../images/lore_logo.png");
+	background-image:url("../Images/lore_logo.png");
 	background-size: contain;
 	float: left;
 	margin-left: 20px;
