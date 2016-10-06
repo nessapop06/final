@@ -1,0 +1,403 @@
+
+/*Colors
+peachy tan #efb78b
+pink: #EC96a4
+dark purple grey; #5d535e
+light purple grey; #e2d7e3
+lavender grey;  #9a9eab
+light grey; #f5f6f7*/
+
+
+* {
+	box-sizing: border-box;
+}
+body{
+	background-color:#f5f6f7;
+	margin: 0;
+}
+#jar {
+	width: 975px;
+	height:3000px;
+	margin: 575px auto;
+	padding:50px 0px 0px 0px;
+
+}
+
+.introp{
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	color:#5c535d;
+	line-height: 22px;
+	font-size: 14px;
+
+}
+
+.intro{
+	text-align: center;
+	font-family: 'Lora', serif;
+	color:#5c535d;
+	line-height: 32px;
+	font-size: 30px;
+	letter-spacing: 0.05em;
+
+}
+p{
+	text-align: left;
+	font-family: 'Lato', sans-serif;
+	color:#5c535d;
+	line-height: 22px;
+	font-size: 14px;
+
+}
+
+h1 {
+	text-align: left;
+	font-family: 'Lora', serif;
+	color:#5c535d;
+	line-height: 32px;
+	font-size: 30px;
+	letter-spacing: 0.05em;
+
+}
+
+h2 {
+	text-align: left;
+	font-family: 'Lora', serif;
+	color:#5c535d;
+	line-height: 21px;
+	font-size: 19px;
+	letter-spacing: 0.05em;
+		transition: 2s;
+
+
+}
+
+h3 {
+	text-align: left;
+	font-family: 'Lato', serif;
+	font-weight: 700;
+	color:#5c535d;
+	line-height: 21px;
+	font-size: 16px;
+	transition: 2s;
+	margin-top: 25px;
+	background-color:#e2d7e3;
+	padding: 5px; 
+	cursor:pointer;
+
+
+}
+
+h3:before { 
+   font-family: FontAwesome;
+   content: "\f078";
+   padding: 0px 7px 0px 7px;
+   display: inline-block;
+   margin: 0;
+
+}
+
+h3.special:before { 
+   font-family: FontAwesome;
+   content: "\f077";
+   padding-right: 5px;
+   display: inline-block;
+   margin: 0;
+
+}
+
+
+h4 {
+	text-align: left;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	color:#5c535d;
+	font-size: 16px;
+	margin-bottom: 25px;
+	line-height: 19px;
+
+}
+
+.hello {
+	text-align: left;
+	font-family: 'Grand Hotel',
+ 'Lato', sans-serif;
+	color:#5c535d;
+	font-size: 50px;
+
+}
+
+.fa-quote-left{
+	color:#EC96a4;
+	padding: 0px 10px 0px 10px;
+}
+
+.introh2 {
+	text-align: center;
+	font-family: 'Lora', serif;
+	color:#5c535d;
+	line-height: 21px;
+	font-size: 19px;
+	letter-spacing: 0.05em;
+
+}
+
+
+#jar .white{
+	text-align: center;
+	font-family: 'Lora', serif;
+	color:#f5f6f7;
+	line-height: 32px;
+	font-size: 30px;
+	letter-spacing: 0.05em;
+
+}
+
+.button {
+	padding:12px 20px 12px 20px;
+	border: 2px solid #5c535d;
+	font-family: 'Lora', serif;
+	font-size: 20px;
+	color: #5c535d;
+	text-align: center;
+	font-weight: 700;
+	transition: 1s;
+
+
+}
+
+textarea {
+   resize: none;
+}
+
+form {
+   padding: 15px 15px 20px 15px;
+	background-color:#e2d7e3;
+	color:#5d535e;
+	border-radius: 5px;
+
+
+}
+.pink{
+	color:#ec778a;
+}
+form input{
+
+	width: 100%;
+    border: 1px solid #5d535e;
+    padding: 9px 8px;
+    height: initial;
+    line-height: initial;
+    margin: 10px 0px 10px 0px;
+
+}
+.button:hover {
+	padding:12px 20px 12px 20px;
+	border: 2px solid #5c535d;
+	font-family: 'Lora', serif;
+	font-size: 20px;
+	color: #f5f6f7;
+	text-align: center;
+	font-weight: 700;
+	background-color: #5c535d;
+
+}
+.sm-button {
+	padding:5px 10px 5px 10px;
+	border: 2px solid #5c535d;
+	font-family: 'Lora', serif;
+	font-size: 14px;
+	color: #5c535d;
+	text-align: center;
+	font-weight: 700;
+	transition: 1s;
+
+
+}
+.sm-button:hover {
+	padding:5px 10px 5px 10px;
+	border: 2px solid #5c535d;
+	font-family: 'Lora', serif;
+	font-size: 14px;
+	color: #f5f6f7;
+	text-align: center;
+	font-weight: 700;
+	transition: 1s;
+	background-color: #5c535d;
+
+
+
+}
+nav {
+	background-color:transparent; /*DARK GREY*/
+	height: 100px;
+	width: 100%;
+	padding: 5px; 
+	z-index: 1000;
+	position: fixed;
+	top:0px;
+}
+
+.nav2 {
+	background-color:#5d535e; /*DARK GREY*/
+	height: 74px;
+	padding: 5px; 
+}
+
+.home{
+	width:100%;
+	background-image: url("../images/open-flowers.jpg");
+	background-attachment: fixed;
+	position: absolute;
+	height: 575px;
+	background-size: cover;
+	padding-top: 75px;
+	clear: both;
+	top:0px;
+
+}
+
+.why {
+	width:100%;
+	background-image: url("../images/open-flowers-flowers.jpg");
+	background-attachment: fixed;
+	height: 200px;
+	background-size: cover;
+	padding-top: 75px;
+	position:absolute;
+	left:0;
+	right:0;
+	margin-bottom: 50px;
+
+}
+
+#links {
+	float: right;
+	/*	width: 200px;
+	*/	position: relative;
+	-webkit-padding-start: 0px;
+	padding:10px 100px 0px 0px;
+	font-family: 'Lora', serif;
+	font-size:15px;
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+
+li {
+	display: inline;
+
+}
+a {
+	text-decoration: none;
+
+}
+
+
+
+#links li a{
+	color:#9a9eab; /*lAVENDER GRAY*/
+	text-transform: uppercase;
+	padding: 0px 10px 0px 10px;
+	transition: 2s;
+
+
+}
+
+#links li a:hover{
+	color:#EC96a4; /*PINK*/
+	text-transform: uppercase;
+
+}
+
+.logo{
+	width: 250px;
+	height: 80px;
+	background-image:url("../images/lore_logo.png");
+	background-size: contain;
+	float: left;
+	margin-left: 20px;
+	margin-top: 5px;
+	color: #fff;
+	z-index: 10000;
+	background-position: center; 
+	background-repeat: no-repeat;
+
+}
+img{
+	padding-bottom: 15px;
+}
+
+
+
+.logo-sm{
+	width: 150px;
+	height: 40px;
+	background-image:url("../images/lore_logo.png");
+	background-size: contain;
+	float: left;
+	margin-left: 20px;
+	margin-top: 15px;
+	color: #fff;
+	z-index: 10000;
+	background-position: center; 
+	background-repeat: no-repeat;
+-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/*-------------------------BEGINNING OF GRID SYSTEM STUFF-------------
+*/
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 5%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF SIX  */
+.span_6_of_6 {
+width: 100%;
+}
+
+.span_5_of_6 {
+	width: 82.5%;
+}
+
+.span_4_of_6 {
+	width: 65%;
+}
+
+.span_3_of_6 {
+	width: 47.5%;
+}
+
+.span_2_of_6 {
+	width: 30%;
+}
+
+.span_1_of_6 {
+	width: 12.5%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+.col {  margin: 1% 0 1% 0%; }
+.span_1_of_6, .span_2_of_6, .span_3_of_6, .span_4_of_6, .span_5_of_6, .span_6_of_6 { width: 100%; }
+}
