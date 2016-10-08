@@ -43,17 +43,26 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 
 	<div class="col span_4_of_6">
-		<form method="post" action="form.html">
-		Name<span class="pink">*</span>:
-		<input type="text" placeholder="Full Name" name="firstname" required>
-		Phone Number:<input type="text" placeholder="2121234567" type="number" maxlength="10"><br>
-		Email Address<span class="pink">*</span>:<input type="text" placeholder="youremail@email.com" type="email" required><br><br>
-		Details<span class="pink">*</span>:<br><textarea name="message" rows="10" cols="97">
+		<form method="post" action="form/contactengine.php">
+
+		<label for="Name">Name<span class="pink">*</span>:</label>
+		<input type="text" id="Name" placeholder="Full Name" name="Name" required>
+
+		<label for="Tel">Phone Number:</label>
+		<input type="text" name="Tel" id="Phone" placeholder="2121234567" type="number" maxlength="10"><br>
+
+		<label for="Email">Email Address<span class="pink">*</span>:</label>
+
+		<input type="text" name="Email" id="Email" placeholder="youremail@email.com" type="email" required><br><br>
+
+		<label for="Message">Details<span class="pink">*</span>:</label><br>
+
+		<textarea name="Message" id="Details" rows="10" cols="97">
 </textarea>
 
 <br><br>
 
-<a class="sm-button" type="submit" href="contact.html" onclick="alert('Thanks for your interest!')">Submit</a>
+<input class="sm-button" type="submit" name="submit" value="Submit" onclick="alert('Thanks for your interest!')">
 <br>
 
 
