@@ -264,6 +264,8 @@ position: absolute;
     font-family: 'lora', serif;
 	font-weight: 400;
 	font-style: italic;
+	    white-space: nowrap;
+
 /*	text-shadow: 1px 1px 1px #000;
 */
 }
