@@ -17,9 +17,10 @@ body{
 }
 #jar {
 	width: 975px;
-	height:3000px;
-	margin: 575px auto;
+	height:100%;
+	margin: 575px auto 100px auto;
 	padding:50px 0px 0px 0px;
+
 
 }
 
@@ -37,8 +38,9 @@ body{
 	font-family: 'Lora', serif;
 	color:#5c535d;
 	line-height: 32px;
-	font-size: 30px;
-	letter-spacing: 0.05em;
+	font-size: 27px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
 
 }
 p{
@@ -138,8 +140,8 @@ h4 {
 	font-family: 'Lora', serif;
 	color:#5c535d;
 	line-height: 21px;
-	font-size: 19px;
-	letter-spacing: 0.05em;
+	font-size: 20px;
+	text-transform: uppercase;
 
 }
 
@@ -149,8 +151,9 @@ h4 {
 	font-family: 'Lora', serif;
 	color:#f5f6f7;
 	line-height: 32px;
-	font-size: 30px;
-	letter-spacing: 0.05em;
+	font-size: 27px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
 
 }
 
@@ -230,19 +233,38 @@ form input{
 
 }
 nav {
-	background-color:transparent; /*DARK GREY*/
+	background-color:rgba(93,83,94,0.0); /*DARK GREY*/
 	height: 100px;
 	width: 100%;
 	padding: 5px; 
 	z-index: 1000;
 	position: fixed;
 	top:0px;
+	transition: opacity 2s;
+
 }
 
 .nav2 {
-	background-color:#5d535e; /*DARK GREY*/
+background-color:rgba(93,83,94,1.0);
 	height: 74px;
 	padding: 5px; 
+}
+
+footer {
+	background-color: #5d535e;
+
+	background-image: url("../Images/open-flowers-flowers.jpg");
+
+    width: 100%;
+    bottom: 0;
+/*    position: fixed;
+*/    padding: 10px 10px 10px 50px;
+    color: #fff;
+	box-sizing: border-box;
+}
+
+footer p{
+	color:#9a9eab;
 }
 
 .home{
@@ -258,6 +280,68 @@ nav {
 
 }
 
+.about{
+	width:100%;
+	background-image: url("../Images/iStock_97172331_MEDIUM.jpg");
+	background-attachment: fixed;
+	position: absolute;
+	height: 575px;
+	background-size: cover;
+	padding-top: 75px;
+	clear: both;
+	top:0px;
+
+}
+
+.contact{
+	width:100%;
+	background-image: url("../Images/iStock_77598633_MEDIUM.jpg");
+	background-attachment: fixed;
+	position: absolute;
+	height: 575px;
+	background-size: cover;
+	padding-top: 75px;
+	clear: both;
+	top:0px;
+
+}
+
+.gal{
+	width:100%;
+	background-image: url("../Images/iStock_92973193_MEDIUM.jpg");
+	background-attachment: fixed;
+	position: absolute;
+	height: 575px;
+	background-size: cover;
+	padding-top: 75px;
+	clear: both;
+	top:0px;
+
+}
+.process{
+	width:100%;
+	background-image: url("../Images/wet-flowers.jpg");
+	background-attachment: fixed;
+	position: absolute;
+	height: 575px;
+	background-size: cover;
+	padding-top: 75px;
+	clear: both;
+	top:0px;
+
+}
+.faq{
+	width:100%;
+	background-image: url("../Images/iStock_91258965_MEDIUM.jpg");
+	background-attachment: fixed;
+	position: absolute;
+	height: 575px;
+	background-size: cover;
+	padding-top: 75px;
+	clear: both;
+	top:0px;
+
+}
 .why {
 	width:100%;
 	background-image: url("../Images/open-flowers-flowers.jpg");

@@ -1,15 +1,15 @@
-          $(document).ready(function() {
+$(document).ready(function() {
 
- $(window).scroll(function() {
+	$(window).scroll(function() {
           if ($(window).scrollTop() > 475) {
 
             $("nav").addClass("nav2");
-             $("#lore").attr('class', 'logo-sm');
+            $("#lore").attr('class', 'logo-sm');
            
           
         } else {
             $("nav").removeClass("nav2");
-  $("#lore").attr('class', 'logo');
+  			$("#lore").attr('class', 'logo');
         }
 
 });
