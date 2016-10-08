@@ -232,6 +232,58 @@ form input{
 
 
 }
+@keyframes fadeIn {
+    0% {opacity: 0.0;}
+    25% {opacity: 0.0;}
+    100%{opacity: 1.0;}
+}
+.quote{
+position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color:#f7f7f7;
+    padding: 40px;
+    font-family: 'lora', serif;
+/*  background-color: rgba(0,0,0,0.6);
+*/	line-height: 38px;
+	letter-spacing: 0.02em;
+	font-weight: 400;
+/*	text-shadow: 1px 1px 1px #000;
+*/
+	border-radius: 9px;
+	animation-name: fadeIn;
+    animation-duration: 5s;
+
+}
+.quote-sayer{
+
+    font-size: 20px;
+    color:#EC96a4;
+    font-family: 'lora', serif;
+	font-weight: 400;
+	font-style: italic;
+/*	text-shadow: 1px 1px 1px #000;
+*/
+}
+@keyframes darkenBg {
+    0% {opacity: 0.0;}
+    25% {opacity: 0.0;}
+    100%{opacity: 1.0;}
+}
+.overlay{
+	background-color: rgba(0,0,0,0.6);
+	height: 100%;
+	width: 100%;
+	position:absolute;
+	top:0px;
+	animation-name: darkenBg;
+    animation-duration: 5s;
+
+
+}
+
 nav {
 	background-color:rgba(93,83,94,0.0); /*DARK GREY*/
 	height: 100px;
@@ -243,11 +295,16 @@ nav {
 	transition: opacity 2s;
 
 }
-
+@keyframes topbar {
+    from {opacity: 0.3;}
+    to {opacity: 1.0;}
+}
 .nav2 {
-background-color:rgba(93,83,94,1.0);
+	background-color:rgba(93,83,94,1.0);
 	height: 74px;
 	padding: 5px; 
+	animation-name: topbar;
+    animation-duration: 1s;
 }
 
 footer {
