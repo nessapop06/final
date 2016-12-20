@@ -1,0 +1,164 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title : Example Custom CSS : DinoMaster!
+ URL : http://wufoo.com
+
+ Last Updated : April 1, 2011
+
+- - - - - - - - - - - - - - - - - - - - - 
+
+INSTRUCTIONS
+1. Copy / Paste all or portions of these
+CSS rules into "custom.css".
+
+2. Experiment and play.
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+/* - - - Default - - - */
+
+/* Logo */
+
+
+/* Backgrounds */
+#container{
+	background:#e2d7e3;
+	padding: 15px 15px 20px 15px;
+	color:#5d535e;
+}
+
+#container, html.embed {
+    background-color: #e2d7e3;
+}
+.wufoo input.text, .wufoo textarea.textarea{
+	background:#FFFFFF;
+	padding: 12px 8px;
+	resize: none;
+	width: 80%;
+	border: 0px;
+
+}
+input:focus {
+    outline:none;
+    border: 1px solid #5c535d;
+
+}
+
+textarea:focus {
+    outline:none;
+     border: 1px solid #5c535d;
+
+}
+.wufoo .focused{background:#F5F5F5; outline: none;}
+.wufoo li {
+    width: 80%;
+}
+.wufoo li.focused {
+    background-color: rgba(236, 150, 164, 0.2);
+    border-radius: 8px;
+        outline:none;
+
+}
+.wufoo .instruct{background-color:#F5F5F5}
+
+/* Borders */
+.wufoo .info{border-bottom:1px dotted #CCCCCC}
+.wufoo .instruct{border:1px solid #e6e6e6}
+
+/* Typography */
+.wufoo .info h2{font-size:0%;font-family: 'Lora', serif;color:#F5F5F5;display: none;}
+.wufoo .info div{font-size:95%;font-family: 'Lora', serif;color:#F5F5F5}
+.wufoo .section h3{font-size:110%;font-family: 'Lora', serif;background:#FFFFFF;color:#5d535e}
+.wufoo .section div{font-size:85%;font-family: 'Lora', serif;color:#F5F5F5}
+.wufoo label.desc, .wufoo legend.desc{
+	font-size:95%;
+	color:#444444;
+	font-family: 'Lora', serif;
+	color:#5c535d;
+
+}
+
+
+form li .datepicker {
+	padding: 15px;
+}
+
+form span.req {
+	color: #EC96a4;
+
+}
+.wufoo li div, .wufoo li div label, .wufoo li span label{
+	font-family: 'Lora', serif;
+	color:#5c535d;
+
+
+}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{
+	font-size:70%;
+	font-family: 'Lora', serif;
+	color:#5c535d;
+
+}
+.wufoo label.choice{color:#444444}
+.wufoo .instruct{font-size:80%;font-family: 'Lora', serif;color:#F5F5F5
+}
+
+
+element.style {
+    visibility: hidden !important;
+    
+}
+
+span.symbol {
+    font-size: 120%;
+    line-height: 135%;
+    padding-top: 15px;
+    color: white;
+    visibility: hidden;}
+
+    span.cal7 {
+   
+    padding-top: 15px;
+   }
+
+.wufoo input.btTxt {
+	padding:5px 10px 5px 10px;
+	border: 2px solid #5c535d;
+	font-family: 'Lora', serif;
+	font-size: 14px;
+	color: #5c535d;
+	text-align: center;
+	font-weight: 700;
+	background-color: #e2d7e3;
+
+}
+
+.wufoo input.btTxt:hover {
+	padding:5px 10px 5px 10px;
+	border: 2px solid #5c535d;
+	font-family: 'Lora', serif;
+	font-size: 14px;
+	color: #f5f6f7;
+	text-align: center;
+	font-weight: 700;
+	background-color: #5c535d;
+
+}
+textarea.textarea {
+    /* width: 293px; */
+     min-width: 80%; 
+    max-width: 100%;
+}
+
+.info[class] {
+    display: none;
+}
+#errorLi, .error-container {
+    width: 99%;
+    margin: 15px auto 15px auto;
+    background: #e2d7e3; !important;
+    border: 0px solid red;
+    text-align: center;
+    padding: 1em 0 1em 0;
+    border-radius: 0px;
+}
