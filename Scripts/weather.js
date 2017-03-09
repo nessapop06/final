@@ -11,7 +11,7 @@ function (data){
 		$("#temp").html(data.main.temp + "°F");
 		$("#desc").html(data.weather[0].description+ " ");
 
-		var weathericon = "images/"+ data.weather[0].icon +".svg";
+		var weathericon = "../images/"+ data.weather[0].icon +".svg";
 
 
 		$("#icon").attr("src", weathericon);
